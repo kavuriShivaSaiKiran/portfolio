@@ -36,7 +36,7 @@ const ComputerCanvas = () => {
       gl={{preserveDrawingBuffer: true}}
       camera={{position: [20, 4, 5], fov:30, near:0.1,
         far: 200,}}
-      className='xl:top-9 sm:top-20 xs:top-44 md:top-18 left-auto'
+      className='top-64 max-[300px]:top-48 xl:top-9 sm:top-20 xs:top-44 md:top-18 left-auto'
     >
       <Suspense fallback = {<CanvasLoader/>}>
         <OrbitControls 

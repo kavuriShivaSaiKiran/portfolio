@@ -12,10 +12,10 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`font-black text-white lg:text-[60px] text-[40px] lg:leading-[98px] mt-2  xs:text-[28px] sm:text-[28px]`} style={{fontFamily: styles.font}}>
+          <h1 className={`max-[300px]:text-[30px] font-black text-white lg:text-[60px] text-[40px] lg:leading-[98px] mt-2  xs:text-[28px] sm:text-[28px]`} style={{fontFamily: styles.font}}>
             Hi, I'm <span className="text-[#915eff]" style={{fontFamily: styles.font}}>Shiva</span>
           </h1>
-          <p className={`text-[#dfd9ff] mt-0 text-justify lg:text-[19px] lg:leading-9 lg:max-w-5xl md:text-[18px] md:leading-9 sm:text[15px]  xs:text-[16px] xs:leading-7 flex flex-1 ` }>
+          <p className={`max-[300px]:text-[13px] text-[#dfd9ff] mt-0 text-justify lg:text-[19px] lg:leading-9 lg:max-w-5xl md:text-[18px] md:leading-9 sm:text[15px]  xs:text-[16px] xs:leading-7 flex flex-1 ` }>
             Are you ready to embark your journey through the digital landscapes 
             I've crafted? Step into my world to create stunning online experiences. 
             As a passionate web developer, I invite you to explore my meticulously designed portfolio.
@@ -25,14 +25,14 @@ const Hero = () => {
 
       </div>
 
-        <div className=" md:h-[550px] h-[400px] sm:h-[500px] xl:h-[650px] " >
+        <div className="h-[350px] md:h-[550px] xs:h-[400px] sm:h-[500px] xl:h-[650px] " >
           <ComputersCanvas/>
         </div>
 
-        <div className="absolute xs:bottom-10 bottom-20 w-full
+        <div className="max-[450px]:hidden absolute xs:bottom-10 bottom-20 w-full
         flex justify-center items-center xl:flex md:flex xs:hidden">
           <a href="#about">
-            <div className="w-[30px] h-[50px] rounded-2xl 
+            <div className=" w-[30px] h-[50px] rounded-2xl 
             border-4 border-secondary flex justify-center items-start p-2 ">
               <motion.div 
               animate = {{

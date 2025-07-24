@@ -155,12 +155,12 @@ import {
       company_name: "Latent View",
       icon: LA,
       iconBg: "#E6DEDD",
-      date: "April 2023 - Present",
+      date: "September 2023 - Present",
       points: [
-        "Analysing and Visualising data sheets and transforming it to make it viable to everyone.",
-        "Reducing the complexity of large chunks of data.",
-        "Presenting it to a decisive worksheet to sum up all the insights of the data and working on the remarks.",
-        "Working on algorithms and formulas to compute to require data and present it in almost real time.",
+        "Built scalable full-stack web apps with modular React frontends and microservice-based backends, focusing on user-centric design and performance.",
+        "Transformed complex datasets into clean, actionable insights using Azure Blob Storage, Databricks, and Excel-based analysis.",
+        "Deployed products on Azure with container registries, App Services, and CI/CD pipelines, ensuring efficient, reliable releases.",
+        "Developed AI-powered tools like SQL chatbots and in-app assistants, and automated QA workflows, cutting testing time by 70%."
       ],
     },
   ];
